@@ -1,0 +1,113 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/"
+  to = "/es"
+  status = 301
+
+[[redirects]]
+  from = "/acerca"
+  to = "/es/acerca"
+  status = 301
+
+[[redirects]]
+  from = "/productos"
+  to = "/es/productos"
+  status = 301
+
+[[redirects]]
+  from = "/servicios"
+  to = "/es/servicios"
+  status = 301
+
+[[redirects]]
+  from = "/proyectos"
+  to = "/es/proyectos"
+  status = 301
+
+[[redirects]]
+  from = "/tecnologia"
+  to = "/es/tecnologia"
+  status = 301
+
+[[redirects]]
+  from = "/calidad"
+  to = "/es/calidad"
+  status = 301
+
+[[redirects]]
+  from = "/cafe"
+  to = "/es/cafe"
+  status = 301
+
+[[redirects]]
+  from = "/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/es/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/en/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/de/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/fr/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/it/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/nl/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/pt/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/ca/blog"
+  to = "https://devrfc83.wordpress.com"
+  status = 302
+
+[[redirects]]
+  from = "/contacto"
+  to = "/es/contacto"
+  status = 301
+
+[[redirects]]
+  from = "/terminos"
+  to = "/es/terminos"
+  status = 301
+
+[[redirects]]
+  from = "/privacidad"
+  to = "/es/privacidad"
+  status = 301
+
+[[redirects]]
+  from = "/ajedrez"
+  to = "/es/ajedrez"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
